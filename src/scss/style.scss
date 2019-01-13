@@ -1,0 +1,21 @@
+.accented-font {
+  font-family: 'Courgette', cursive;
+}
+
+#showcase {
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+
+.section-icon {
+  width: 50px;
+}
+
+.globe-icon {
+  width: 13px;
+}
+
+@media only screen and (max-width: 767px) {
+  #main-photo {
+    margin-bottom: 3rem;
+  }
+}
