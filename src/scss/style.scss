@@ -6,6 +6,10 @@
   background: linear-gradient(to right, #00d2ff, #3a7bd5);
 }
 
+.bg-black{
+  background: linear-gradient(to right, hsl(0, 0%, 10%), hsl(0, 0%, 16%));
+}
+
 .section-icon {
   width: 50px;
 }
@@ -18,4 +22,9 @@
   #main-photo {
     margin-bottom: 3rem;
   }
+}
+
+html,body {
+  min-height: min-content;
+  height: 100%;
 }
