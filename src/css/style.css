@@ -1,15 +1,16 @@
+html, body {
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  height: 100%; }
+
 .accented-font {
   font-family: 'Courgette', cursive; }
 
-#showcase {
-  background: -webkit-gradient(linear, left top, right top, from(#00d2ff), to(#3a7bd5));
-  background: -o-linear-gradient(left, #00d2ff, #3a7bd5);
-  background: linear-gradient(to right, #00d2ff, #3a7bd5); }
-
 .bg-black {
-  background: -webkit-gradient(linear, left top, right top, from(#1a1a1a), to(#292929));
-  background: -o-linear-gradient(left, #1a1a1a, #292929);
-  background: linear-gradient(to right, #1a1a1a, #292929); }
+  background: -webkit-gradient(linear, left top, right top, from(#0a0a0a), to(#292929));
+  background: -o-linear-gradient(left, #0a0a0a, #292929);
+  background: linear-gradient(to right, #0a0a0a, #292929); }
 
 .section-icon {
   width: 50px; }
@@ -17,12 +18,21 @@
 .globe-icon {
   width: 13px; }
 
-@media only screen and (max-width: 767px) {
-  #main-photo {
-    margin-bottom: 3rem; } }
+.container-showcase {
+  background: -webkit-gradient(linear, left top, right top, from(#00d2ff), to(#3a7bd5));
+  background: -o-linear-gradient(left, #00d2ff, #3a7bd5);
+  background: linear-gradient(to right, #00d2ff, #3a7bd5); }
 
-html, body {
-  min-height: -webkit-min-content;
-  min-height: -moz-min-content;
-  min-height: min-content;
-  height: 100%; }
+.container-footer-margin {
+  padding-bottom: 9rem; }
+
+.container-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.container-padding-footer {
+  padding-top: 5rem; }
+
+@media only screen and (max-width: 767px) {
+  .my-photo {
+    margin-bottom: 3rem; } }

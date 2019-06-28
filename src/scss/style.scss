@@ -1,13 +1,14 @@
+html, body {
+  min-height: min-content;
+  height: 100%;
+}
+
 .accented-font {
   font-family: 'Courgette', cursive;
 }
 
-#showcase {
-  background: linear-gradient(to right, #00d2ff, #3a7bd5);
-}
-
-.bg-black{
-  background: linear-gradient(to right, hsl(0, 0%, 10%), hsl(0, 0%, 16%));
+.bg-black {
+  background: linear-gradient(to right, hsl(0, 0%, 4%), hsl(0, 0%, 16%));
 }
 
 .section-icon {
@@ -18,13 +19,25 @@
   width: 13px;
 }
 
-@media only screen and (max-width: 767px) {
-  #main-photo {
-    margin-bottom: 3rem;
-  }
+.container-showcase {
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
 }
 
-html,body {
-  min-height: min-content;
-  height: 100%;
+.container-footer-margin {
+  padding-bottom: 9rem;
+}
+
+.container-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.container-padding-footer {
+  padding-top: 5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .my-photo {
+    margin-bottom: 3rem;
+  }
 }

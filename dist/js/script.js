@@ -1,1 +1,0 @@
-window.setInterval(function(){let n=document.getElementById("dots");n.innerHTML.length>2?n.innerHTML="":n.innerHTML+="."},400);
