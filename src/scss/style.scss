@@ -11,14 +11,6 @@ html, body {
   background: linear-gradient(to right, hsl(0, 0%, 4%), hsl(0, 0%, 16%));
 }
 
-.section-icon {
-  width: 50px;
-}
-
-.globe-icon {
-  width: 13px;
-}
-
 .container-showcase {
   background: linear-gradient(to right, #00d2ff, #3a7bd5);
 }
@@ -40,4 +32,16 @@ html, body {
   .my-photo {
     margin-bottom: 3rem;
   }
+}
+
+.navigation-icon{
+  width: 20px;
+}
+
+.section-icon {
+  width: 50px;
+}
+
+.globe-icon {
+  width: 13px;
 }

@@ -12,12 +12,6 @@ html, body {
   background: -o-linear-gradient(left, #0a0a0a, #292929);
   background: linear-gradient(to right, #0a0a0a, #292929); }
 
-.section-icon {
-  width: 50px; }
-
-.globe-icon {
-  width: 13px; }
-
 .container-showcase {
   background: -webkit-gradient(linear, left top, right top, from(#00d2ff), to(#3a7bd5));
   background: -o-linear-gradient(left, #00d2ff, #3a7bd5);
@@ -36,3 +30,12 @@ html, body {
 @media only screen and (max-width: 767px) {
   .my-photo {
     margin-bottom: 3rem; } }
+
+.navigation-icon {
+  width: 20px; }
+
+.section-icon {
+  width: 50px; }
+
+.globe-icon {
+  width: 13px; }

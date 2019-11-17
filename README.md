@@ -2,7 +2,7 @@
 # www.sturmm.pl
 [![Lighthouse score: 91/100](https://lighthouse-badge.appspot.com/?score=91)](https://github.com/ebidel/lighthouse-badge)
 
-My name is Hubert Rządziński. This is my personal portfolio. It features simple and minimalistic design, as well as clean and semantic HTML code structure.
+My name is Hubert Rządziński. This is my portfolio. It features simple and minimalistic design, as well as clean and semantic HTML code structure.
 
 ## Author:
 
